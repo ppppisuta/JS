@@ -1,4 +1,15 @@
+window.addEventListener('load' , function(){
+    const pullDownButton = document.getElementById("lists")
+})
 
-//下記内容をコンソールに入力しイベント確認をしました
-//let lists =document.getElementsByClassName("pull-down-list")
-//console.log(lists)
+lists.addEventListener('mouseover', function(){
+    console.log("カーソルが乗りました")
+})
+
+lists.addEventListener('mouseout', function(){
+    console.log("カーソルが離れました")
+})
+
+lists.addEventListener('click', function(){
+    console.log("クリックしました")
+})
